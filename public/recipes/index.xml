@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recipes on OMI Oriental Grocery</title>
+    <link>https://masherator.github.io/recipes/</link>
+    <description>Recent content in Recipes on OMI Oriental Grocery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jul 2016 04:04:54 -0400</lastBuildDate>
+    <atom:link href="https://masherator.github.io/recipes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mondu Soup Recipe</title>
+      <link>https://masherator.github.io/recipes/mondu-soup/</link>
+      <pubDate>Tue, 12 Jul 2016 04:04:54 -0400</pubDate>
+      
+      <guid>https://masherator.github.io/recipes/mondu-soup/</guid>
+      <description>
+
+&lt;h2 id=&#34;this-is-the-mondu-est-of-soups&#34;&gt;This is the Mondu-est of Soups&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kimbop - Asian Dumpling Stew</title>
+      <link>https://masherator.github.io/recipes/kimbop/</link>
+      <pubDate>Tue, 12 Jul 2016 00:53:01 -0400</pubDate>
+      
+      <guid>https://masherator.github.io/recipes/kimbop/</guid>
+      <description>
+
+&lt;h1 id=&#34;kimbop-is-a-big-issue&#34;&gt;Kimbop is a big issue&lt;/h1&gt;
+
+&lt;p&gt;This is the recipe.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OMI Oriental Grocery</title>
+    <link>https://masherator.github.io/tags/</link>
+    <description>Recent content on OMI Oriental Grocery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jul 2016 00:53:01 -0400</lastBuildDate>
+    <atom:link href="https://masherator.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Choose from Over 300 Specialty Oriental Products</title>
+      <link>https://masherator.github.io/products/</link>
+      <pubDate>Tue, 12 Jul 2016 00:53:01 -0400</pubDate>
+      
+      <guid>https://masherator.github.io/products/</guid>
+      <description>
+
+&lt;h2 id=&#34;this-is-the-products-page&#34;&gt;This is the Products Page&lt;/h2&gt;
+
+&lt;p&gt;There are SO many products to show here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

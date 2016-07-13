@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y on OMI Oriental Grocery</title>
+    <link>https://masherator.github.io/tags/y/</link>
+    <description>Recent content in Y on OMI Oriental Grocery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jul 2016 04:04:54 -0400</lastBuildDate>
+    <atom:link href="https://masherator.github.io/tags/y/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mondu Soup Recipe</title>
+      <link>https://masherator.github.io/recipes/mondu-soup/</link>
+      <pubDate>Tue, 12 Jul 2016 04:04:54 -0400</pubDate>
+      
+      <guid>https://masherator.github.io/recipes/mondu-soup/</guid>
+      <description>
+
+&lt;h2 id=&#34;this-is-the-mondu-est-of-soups&#34;&gt;This is the Mondu-est of Soups&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kimbop - Asian Dumpling Stew</title>
+      <link>https://masherator.github.io/recipes/kimbop/</link>
+      <pubDate>Tue, 12 Jul 2016 00:53:01 -0400</pubDate>
+      
+      <guid>https://masherator.github.io/recipes/kimbop/</guid>
+      <description>
+
+&lt;h1 id=&#34;kimbop-is-a-big-issue&#34;&gt;Kimbop is a big issue&lt;/h1&gt;
+
+&lt;p&gt;This is the recipe.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn How to Make Kimbop - Asian Dumpling Stew</title>
+      <link>https://masherator.github.io/classes/learn-kimbop/</link>
+      <pubDate>Tue, 12 Jul 2016 00:53:01 -0400</pubDate>
+      
+      <guid>https://masherator.github.io/classes/learn-kimbop/</guid>
+      <description>
+
+&lt;h2 id=&#34;you-must-first-ask-yourself-do-you-know-how-not-to-cook&#34;&gt;You must first ask yourself, do you know how NOT to cook?&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About OMI Oriental Grocery</title>
+      <link>https://masherator.github.io/about/</link>
+      <pubDate>Mon, 12 Jan 2015 19:20:04 -0700</pubDate>
+      
+      <guid>https://masherator.github.io/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;about-us&#34;&gt;About Us&lt;/h2&gt;
+
+&lt;p&gt;This is a paragraph all about how my life got flip turned upside-down.
+TODO: Replace this embed code with the google map embed stuff.&lt;/p&gt;
+
+&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/09jf3ow9jfw&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
