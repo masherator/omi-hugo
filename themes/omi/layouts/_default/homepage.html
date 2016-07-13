@@ -9,11 +9,9 @@
     <div class="container">
         
         <div id="main" class="col-lg-8">
-            <h2>Class:{{ .Title }}</h2>
             {{ .Content }}
-            
         </div>
-        
+
         <div id="sidebar" class="col-lg-4">
             {{ partial "sidebar-ourstory.html" . }}
             {{ partial "sidebar-ingredients.html" . }}
@@ -21,6 +19,9 @@
     
     </div>
 
+    <div class="container text-small">TEMPLATE = themes > omi > layouts > _default > homepage.html</div>
+
     {{ partial "footer.html" . }}    
 </body>
 </html>
+{{ partial "js.html" . }}

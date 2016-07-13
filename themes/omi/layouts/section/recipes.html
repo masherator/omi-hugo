@@ -5,30 +5,30 @@
 </head>
 <body>
     {{ partial "header.html" . }}
-
-    <div class="container">
-        
+    <div class="container">        
         <div id="main" class="col-lg-8">
-            <h2>Our Favorite Recipes</h2>
+            <h1>Our Favorite Recipes</h2>
             {{ $paginator := .Paginate .Data.Pages }}
             {{ range $paginator.Pages }}
+
             <div class="col-lg-6">
-                {{ if .Params.image }}
+                {{ if .Params.imageid }}
                 <a href="{{ .Permalink }}">
-                    <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner img-responsive">
+                    <img src="/img/cdn/{{ .Params.imageid }}-sq.jpg" alt="{{ .Title }}" class="img-responsive" />
                 </a>
                 {{end}}
                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                {{ partial "article_metadata" (dict "content" . "is_list" 1) }}
-                <div class="article-style"><p>{{ .Summary }}</p></div>
+                
+                <div><p>{{ .Params.summary }}</p></div>
             </div>
             {{ end }}
         </div>
-
-        {{ partial "sidebar.html" . }}
-    
+        <div id="sidebar" class="col-lg-4">
+            {{ partial "sidebar-ourstory.html" . }}
+            {{ partial "sidebar-ingredients.html" . }}
+        </div>            
     </div>
-
     {{ partial "footer.html" . }}    
 </body>
 </html>
+{{ partial "js.html" . }}

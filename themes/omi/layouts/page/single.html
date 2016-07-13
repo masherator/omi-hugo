@@ -12,7 +12,10 @@
             {{ .Content }}
         </div>
 
-        {{ partial "sidebar.html" . }}
+        <div id="sidebar" class="col-lg-4">
+            {{ partial "sidebar-ourstory.html" . }}
+            {{ partial "sidebar-ingredients.html" . }}
+        </div>
     
     </div>
 
@@ -21,3 +24,4 @@
     {{ partial "footer.html" . }}    
 </body>
 </html>
+{{ partial "js.html" . }}

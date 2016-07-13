@@ -1,35 +1,177 @@
-header{
-    background-image:url('/img/banner-short.jpg');
-    background-repeat:no-repeat;
-    /*background-color:#6F9A2B;*/
-    min-height: 350px;
-    padding-top: 24px;   
+/********************
+#6F9A2B = DARK GREEN
+#FFE074 = DARK YELLOW
+#fff2c6 = LIGHT YELLOW
+#988275 = LIGHT BROWN
+*********************/
+
+/********** FONT **********/
+body, p, p ul {  
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, .navbar-nav { 
+    /*font-family: "Permanent Marker", serif;*/
+    font-family: 'Alegreya', serif;
 }
 
+
+/********** HEADER **********/
+header{
+    background-image:url('/img/banner-short.jpg');
+    background-repeat:no-repeat;    
+    min-height: 350px;
+    padding-top: 24px;   
+    }
+header .slogan{
+    background-color:#FFE074;    
+    text-align:center;
+    font-style: italic;
+    font-size:20px;
+    font-weight: bold;
+    margin-top:10px;
+    } 
+header #logo h1 { 
+    text-indent:-5000px; 
+    display:none;
+    }
+
+/********** HEADER > PHONE **********/
+#phone {
+    color:#fff;
+    font-size:1.1em;
+    font-weight:bold;
+    margin-top:8px;
+}
+
+/********** HEADER > ADDRESS **********/
+#address { 
+    color:#fff;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    text-align:center;
+}
+
+/********** HEADER > HOURS PANEL **********/
+#hours.panel, #hours .panel-heading, #hours .panel-body {
+    padding: 0 0 0 0;
+    }
+#hours.panel, #hours .panel-body { 
+    width:75%; 
+    text-align:center;
+    margin: 0 auto; 
+    }
+#hours .panel-footer { 
+    background:none; 
+    border:0;
+    }
+#hours.panel{
+    background:rgba(0,0,0,0.3);
+    color:#fff;
+    }
+/*class="dl-horizontal"*/
+#hours dl dt, #hours dl dd { 
+    width:50%;
+    float:left;
+    text-align: center;
+    border-bottom:1px solid white;
+    padding:0 0 0 0;
+    margin:0 0 0 0;   
+    }
+#hours dl {
+    clear:both;
+    float:none;
+    margin-bottom:15px;
+    }
+
+/********** TOP MENU **********/
+nav {      
+    text-transform: uppercase; 
+    }
 nav .navbar-nav a { 
     background-color: #FFE074;
     margin-left:15px;
     padding:8px;
     color:#6F9A2B;
-    font-size:1.3em;
-    
+    font-size:1.3em;    
     }
-    footer .bottom-nav ul li { 
-        list-style:none;
-    }
-    footer .bottom-nav ul li a{
-        font-size:18px;
-        color:#988275;
-    }
-    footer .address {
-        font-size:18px;
-    }
-    footer .middle-col {
-        border-right: 1px solid #988275;
-        border-left: 1px solid #988275;
-        min-height: 150px;
+nav .navbar-nav a.active { 
+    background-color:#fff; 
+    color:#FFE074; 
     }
 
+/********** MAIN CONTENT **********/    
+#main {
+    margin-top:-70px;
+    background-color:white;
+    }
+    #main > img.pull-right { 
+        margin-top:15px;
+
+    }
+#sidebar {
+    margin-top:15px;
+    }
+
+/********** BOOTSTRAP LAYOUT COMPONENTS **********/
+.panel {
+    background-color: #FFE074;
+    }
+.panel.alt { 
+    background-color:#fff2c6; 
+    }   
+.panel-heading { 
+    font-size:1.4em;
+    font-weight: bold;    
+    text-align:center;      
+    }
+
+/********** HEADINGS **********/
+h2.highlight{
+  display: inline;
+  background: #FFE074;
+  color: #4D4D4D;
+  padding: 0.18em;
+  line-height: 1.6em;
+  font-style: italic;
+  position: relative;
+  left: 0.18em;
+  padding-left: 0;
+  box-shadow: 0.18em 0 0 #FFE074, -0.18em 0 0 #FFE074;
+}
+h2 {
+    color:#804000;
+    }
+
+/********** FOOTER **********/
+footer .bottom-nav ul li { 
+    list-style:none;
+    }
+footer .bottom-nav ul li a{
+    font-size:18px;
+    color:#988275;
+    }
+footer .address {
+    font-size:18px;
+    }
+footer .middle-col {
+    border-right: 1px solid #988275;
+    border-left: 1px solid #988275;
+    min-height: 150px;
+    }
+footer {
+    color:#988275;
+    background-image:url('/img/footer.gif');
+    background-repeat: repeat-x;
+    min-height: 325px;
+    padding-top:55px;
+    }
+footer .footer-body {
+    padding:20px 20px 0px 20px;
+    background-color: #FFE074;    
+    }
+
+/********** SOCIAL **********/
 ul.social-buttons {
     margin-bottom:0;
     text-align:right;
@@ -49,122 +191,17 @@ ul.social-buttons li a {
     -moz-transition:all .3s;
     transition:all .3s    
     }    
-ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{background-color:#fed136}
-
-footer {
-    color:#988275;
-    background-image:url('/app/img/footer.gif');
-    background-repeat: repeat-x;
-    min-height: 325px;
-    padding-top:55px;
-}
-
-footer .footer-body {
-    padding:20px 20px 0px 20px;
-    background-color: #FFE074;    
-}
-
-#main {
-    top:-70px;
-    background-color:white;
-    padding-top:10px;
-}
-#sidebar {
-    margin-top:15px;
-}
-#logo h1 { text-indent:-5000px; display:none;}
-
-header .slogan{
-    background-color:#FFE074;
-    font-family: 'Times New Roman', Times, serif;
-    text-align:center;
-    font-style: italic;
-    font-size:20px;
-    font-weight: bold;
-    margin-top:10px;
-
-} 
-nav {font-family: 'Times New Roman', Times, serif;  text-transform: uppercase; }
-nav a.active { background-color:#fff; color:#FFE074; }
-.panel {
-    background-color: #FFE074;
-}
-.panel-heading { 
-    font-weight: bold;
-    font-size:1.2em;
-    text-align:center;
-}
-
-#hours.panel, #hours .panel-heading, #hours .panel-body {padding: 0 0 0 0; }
-
-#hours.panel, #hours .panel-body { 
-    width:75%; 
-    text-align:center;
-    margin: 0 auto; 
+ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{
+    background-color:#fed136;
     }
-#hours .panel-footer { background:none; border:0;}
-#hours.panel{
-    background:rgba(0,0,0,0.3);
-    color:#fff;
-}
 
-/*class="dl-horizontal"*/
-#hours dl dt, #hours dl dd { 
-    width:50%;
-    float:left;
-    text-align: center;
-    border-bottom:1px solid white;
-    padding:0 0 0 0;
-    margin:0 0 0 0;   
-    }
-    #hours dl {clear:both; float:none;margin-bottom:15px;}
-
+/********** RESPONSIVE: MEDIUM/SMALL SCREENS **********/
 @media(max-width:1024px){
- #hours.panel {
-    background-color:#808080;
-     
-     margin-bottom:80px;
- }
+    #hours.panel {
+        background-color:#808080;     
+        margin-bottom:80px;
+        }
+    footer .middle-col { 
+        border:0;
+        }
 }
-#phone {
-    color:#fff;
-    font-size:1.1em;
-    font-weight:bold;
-    margin-top:8px;
-}
-
-#address { 
-    color:#fff;
-    font-size: 1.4em;
-    font-weight: bold;
-    margin: 5px 0 10px 0;
-    text-align:center;
-}
-
-
-.panel-heading { 
-    font-family: 'Times New Roman', Times, serif;
-    font-size:1.4em;
-}
-
-h2.highlight{
-  display: inline;
-  background: #FFE074;
-  color: #4D4D4D;
-  padding: 0.18em;
-  line-height: 1.6em;
-  font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-  position: relative;
-  left: 0.18em;
-  padding-left: 0;
-  box-shadow: 0.18em 0 0 #FFE074, -0.18em 0 0 #FFE074;
-}
-h2 {color:#804000;   font-family: 'Times New Roman', Times, serif;
-     }
-     h3 {
-          font-family: 'Times New Roman', Times, serif;
-     }
-
-#main > h2 { margin-top:0px; }
-.panel.alt { background-color:#fff2c6; }

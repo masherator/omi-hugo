@@ -1,0 +1,6 @@
+
+[submodule "masherator.github.io"]
+	path = masherator.github.io
+	path = public
+	url = git@github.com:masherator/masherator.github.io.git
+	branch = master
