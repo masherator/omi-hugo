@@ -7,10 +7,14 @@
     {{ partial "header.html" . }}
     <div class="container">        
         <div id="main" class="col-lg-8">   
+           
+            {{ .Content }}   
+
             {{ if .Params.imageid }}
-                <img src="/img/cdn/{{ .Params.imageid }}-sq.jpg" alt="{{ .Title }}" class="img-responsive img-circle pull-right" />                
-            {{end}}    
-            {{ .Content }}            
+                <img src="{{ .Site.Params.cdn}}{{ .Params.imageid }}-xl.jpg" alt="{{ .Title }}" class="img-responsive" />            
+            {{ else }}            
+                <img src="http://placehold.it/600x400" alt="Placeholder 800 x 550" class="img-responsive" />            
+            {{ end }}       
         </div>
         <div id="sidebar" class="col-lg-4">
             {{ partial "sidebar-ourstory.html" . }}

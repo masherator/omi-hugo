@@ -1,7 +1,7 @@
 baseurl: https://masherator.github.io/
 languageCode: en-us
 title: OMI Oriental Grocery
-theme: omi
+
 canonifyurls: true
 menu:
   main:
@@ -11,3 +11,6 @@ menu:
       - Name: "Classes"
         Url: "/classes/"
         Weight: 4
+
+params:
+  cdn: http://wrightdrive.blob.core.windows.net/omi/

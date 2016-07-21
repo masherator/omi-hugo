@@ -3,7 +3,7 @@ date = "2016-07-12T00:53:01-04:00"
 title = "YangYum GangJong"
 summary = "A Spicy Soy Sauce Dipping Sauce"
 tags = ["dipping sauce", "spicy"]
-imageid = "001"
+imageid = ""
 +++
 
 # YangYum GangJong

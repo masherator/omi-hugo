@@ -1,0 +1,12 @@
+             
+<div class="panel-body">
+    <p>
+        <i class="fa fa-quote-left fa-4x pull-left"></i>           
+        {{ .Summary }}
+        
+        {{ if .Truncated}}
+            <p>...<a href="/reviews">Read More</a></p>
+        {{ end }}        
+    </p>
+    <p class="text-right"><i>- {{ .Params.reviewer }} {{ .Params.locale }} (Via {{ .Params.channel }})</i></p>                         
+</div>   

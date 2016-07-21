@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-lg-4">
+        {{ if .Params.imageid }}
+        <a href="{{ .Permalink }}">
+            <img src="{{ .Site.Params.cdn }}{{ .Params.imageid }}-m.jpg" alt="{{ .Title }}" class="img-responsive" />
+        </a>
+        {{ else }}
+        <a href="{{ .Permalink }}">
+            <img src="http://placehold.it/300x200" alt="Placeholder 300 x 200" class="img-responsive" />
+        </a>
+        {{ end }}
+    </div>
+    <div class="col-lg-8">
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <h4>
+        {{ dateFormat "Monday, Jan 2, 2006" .Params.classdate }} - 
+        {{ .Params.cost }}
+    </h4>
+    <p>{{ .Params.summary }}</p>
+    </div>    
+</div>

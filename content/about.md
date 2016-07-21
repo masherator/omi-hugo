@@ -6,7 +6,7 @@ tags = ""
 
 # About Us
 
-Welcome to the OMI ('Oh-Me') website, the 'Five Flavors' Oriental Grocery!
+<p class="lead">Welcome to the OMI ('Oh-Me') website, the 'Five Flavors' Oriental Grocery!</p>
 
 Whether you’ve been preparing Far Eastern dishes all your life, or you want to try to making your favorite Oriental dish
 for the first time, we will be delighted to help you.
@@ -22,17 +22,13 @@ providing a delicious meal.
 
 For those of you who might feel a little lost when you go into a oriental grocery, we can understand how you feel. You want
 to try making something new, but you don’t know the language on the package or are unfamiliar with the product or how
-to prepare it. Just ask us. We are here to help you find what you need.</p>  
+to prepare it. Just ask us. We are here to help you find what you need.
 
 ## Contact
 
-**Email Address:**  
+{{< contactform "omiorientalgrocery@gmail.com" >}}
 
-[omiorientalgrocery@gmail.com](mailto:omiorientalgrocery@gmail.com)
-
-**Phone Number:**
-
-(860) 253-9028
+**Do You Prefer To Talk On the Phone?** You can call us during business hours at (860) 253-9028. If you have questions after hours, the *Contact Form* above is best.
 
 ## Maps & Directions
 

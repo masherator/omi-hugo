@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}      
+    <!--TEMPLATE = themes > omi > layout > index.html-->      
+</head>
+<body class="font-awesome">
+    {{ partial "header.html" . }}
+    <div class="container">        
+        <div id="main" class="col-lg-8">
+            <h1>Ingredients, Tools & Know How to Bring the Far East to Your Home</h2>
+
+            <img src="/img/omi-products.jpg" alt="A large variety of products.">
+
+            <p class="lead">Are you intrigued by Asian cuisine but intimitadated by the vast array of ingredients or special techniques? 
+                Well, you've found the right place! Come by the store in <a href="/about/#direction">Enfield, Connecticut</a> and our knowledgeable, helpful staff will be ready to answer your questions.
+                You can also browse some of our <a href="/recipes">favorite recipes here</a>. We even offer a growing selection of <a href="/classes">cooking classes</a> to 
+                help you develop your Asian food skills.</p>             
+               
+            <div class="well">
+                <h3>What Our Customers Are Saying...</h2>                   
+                {{ range first 1 (where .Data.Pages "Type" "reviews") }}
+
+                    {{ .Render "featured" }}
+
+                {{ end }}                    
+            </div>
+
+            <h2>Top 3 Recipes</h3>
+            <div class="row">                
+                {{ range first 3 (where .Data.Pages "Type" "recipes") }}
+                    
+                    {{ .Render "summary" }}
+                
+                {{ end }}   
+            </div>
+
+            <br style="clear:both;"/>
+        </div>
+        <div id="sidebar" class="col-lg-4">
+            {{ partial "sidebar-omi.html" . }}            
+            {{ partial "sidebar-ourstory.html" . }}
+            {{ partial "sidebar-ingredients.html" . }}                    
+        </div>
+    </div>
+    {{ partial "footer.html" . }}    
+</body>
+</html>

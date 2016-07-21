@@ -3,7 +3,7 @@ date = "2016-07-12T04:04:54-04:00"
 title = "Soybean Sprout Soup Recipe"
 summary = "Summary of Soybean Sprout Soupt"
 tags = [ "soup" ]
-imageid = "002"
+imageid = ""
 +++
 
 # Soybean Sprout Soup
