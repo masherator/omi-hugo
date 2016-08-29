@@ -1,11 +1,11 @@
 +++
 date = "2016-07-12T00:53:01-04:00"
-title = "Learn How to Make Kimbop - Asian Dumpling Stew"
+title = "Learn How to Make Cuttlefish, Kimchi + Kimbop"
 summary = "This is the summary"
 classdate = "2016-08-30"
 classtime = "6:30 PM"
 cost = "$30 / person"
-imageid = "IgARJXgeF0OV9au0TmKGvA"
+imageid = "gKySdLUJuEWK7HlvTvWoVQ"
 tags = ""
 +++
 

@@ -1,7 +1,7 @@
 +++
-date = "2016-07-12T00:53:01-04:00"
+date = "2016-08-01"
 title = "Korean Radish Soup"
-summary = "Korean Radish Soup Summary"
+summary = "Summary for Korean Radish Soup"
 tags = ["radish", "soup"]
 imageid = "lCokKIloFE2yf0V3awodqw"
 +++

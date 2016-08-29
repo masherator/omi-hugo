@@ -1,13 +1,18 @@
 +++
-title = "Choose from Over 300 Specialty Oriental Products"
-summary = "This is the summary"
 date = "2016-07-12T00:53:01-04:00"
-tags = ""
+title = "Kimchi"
+summary = "Delicious, Spicy & Healthy"
+tags = []
+imageid = "gKySdLUJuEWK7HlvTvWoVQ"
 +++
 
-# This is the Products Page
+# Kimchi Products
 
-There are SO many products to show here.
+TODO: Put information about the various Kimchi varieties/brands you offer. 
+
+----
+
+## Below is the old text list of products from the homepage in case we want to reference it later.
 
 KIMCHI
 DELICIOUS, SPICY & HEALTHY

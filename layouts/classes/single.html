@@ -12,6 +12,9 @@
             <h2>Class:{{ .Title }}</h2>
             {{ .Content }}
             
+            {{ if .Params.imageid }}
+                <img src="{{ .Site.Params.cdn}}{{ .Params.imageid }}-xl.jpg" alt="{{ .Title }}" class="img-responsive" />            
+            {{ end }} 
         </div>
         
         <div id="sidebar" class="col-lg-4">

@@ -93,10 +93,10 @@ nav .navbar-nav a {
     margin-left:15px;
     padding:8px;
     color:#6F9A2B;
-    font-size:1.3em;    
+    font-size:1.25em;    
     }
-nav .navbar-nav a.active { 
-    background-color:#fff; 
+nav .navbar-nav a.current { 
+    background-color:darkgreen; 
     color:#FFE074; 
     }
 nav a.fa-home {
@@ -189,6 +189,12 @@ footer .footer-body {
     background-color: #FFE074;    
     }
 
+.summary-content
+{
+    height:130px;
+    text-overflow: clip;
+}
+
 /********** SOCIAL **********/
 /*ul.social-buttons {
     margin-bottom:0;
@@ -218,6 +224,7 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
     #hours.panel {
         background-color:#808080;     
         margin-bottom:80px;
+        padding-bottom:10px;
         }
     footer .middle-col { 
         border:0;

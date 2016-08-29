@@ -2,24 +2,32 @@
     <div class="container">
         <div id="logo" class="col-lg-4 col-md-4 col-sm-4">  
             <a href="/">              
-                <img src="{{ .Site.BaseURL }}img/omi-logo-lg.png" class="img-responsive" alt="logo" />
+                <img src="{{ .Site.BaseURL }}img/omi-logo-lg.png" class="img-responsive" alt="OMI Oriental Grocery Logo" />
             </a>
             <!--<h1>OMI Asian Grocery</h1>-->
+            <div class="slogan">{{ .Site.Params.slogan }}</div>
         </div>
         <div class="col-lg-8">
             <nav class="navbar ">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/" class="fa fa-home fa-3x"></a></li>
-                    <li><a href="/about">About Us</a></li>
-                    <li><a href="/recipes">Recipes</a></li>
-                    <li><a href="/products">Products</a></li>
-                    <li><a href="/classes">Classes</a></li>                    
+                    <li><a href="/about">About Us</a></li>                    
+                    {{ $currentNode := . }}
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        {{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}
+                        <a href="{{ .URL }}" class="current">{{ .Name }}</a>
+                        {{ else }}
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                        {{ end }}
+                    </li>
+                    {{ end }}
                 </ul>
             </nav>
             <div class="col-lg-offset-6">
-                <div id="address">
-                    786 Enfield Street <br />
-                    Enfield, Conn. 06082
+                <div id="address">                    
+                    {{ .Site.Params.street }}<br/>
+                    {{ .Site.Params.citystatezip }}                
                 </div>
                 <div id="hours" class="panel">
                     <div class="panel-heading">
@@ -39,7 +47,10 @@
                         
                     </div>  
                     <div class="panel-footer">
-                        <div id="phone" class="text-center"><i class="fa fa-phone fa-2x pull-left" style="margin-top:8px;"></i>Have Questions? Call Us 860.253.9028</div>
+                        <div id="phone" class="text-center">
+                            <i class="fa fa-phone fa-2x pull-left" style="margin-top:8px;"></i>
+                            Have Questions? Call Us {{ .Site.Params.phone }}
+                        </div>
                     </div>
                 </div>
             </div>

@@ -9,12 +9,14 @@
     <div class="container">        
         <div id="main" class="col-lg-8">
             <h2>{{ .Title }}</h2>
+            <div class="row">
             {{ $paginator := .Paginate .Data.Pages }}
             {{ range $paginator.Pages }}
 
                {{ .Render "summary" }}
             
-            {{ end }}          
+            {{ end }}
+            </div>          
         </div>
         <div id="sidebar" class="col-lg-4">
             {{ partial "sidebar-ourstory.html" . }}
@@ -22,7 +24,7 @@
         </div>
     
     </div>
-
+    <!--TEMPLATE = layouts > _default > list.html-->
     {{ partial "footer.html" . }}    
 </body>
 </html>

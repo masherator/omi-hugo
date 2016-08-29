@@ -26,14 +26,37 @@
                 {{ end }}                    
             </div>
 
-            <h2>Top 3 Recipes</h3>
-            <div class="row">                
+            <div class="row">
+                <h2>Top 3 Recipes</h3>
+                <p class="text-right"><a href="/recipes/">See More Recipes...</a></p>                
                 {{ range first 3 (where .Data.Pages "Type" "recipes") }}
                     
                     {{ .Render "summary" }}
                 
-                {{ end }}   
+                {{ end }}    
+            </div>                
+
+            <div class="row">
+                <h2>Featured Products</h2>
+                <p class="text-right"><a href="/products/">See More Products...</a></p>            
+                {{ range first 3 (where .Site.Taxonomies.tags.featured.Pages "Type" "products") }}
+
+                    {{ .Render "summary" }}
+                
+                {{ end }}                    
+            </div>                                  
+
+            <!--
+            <div class="row">
+              <h3>Tags</h3>
+              <ul id="all-tags">
+                {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                    <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
+                {{ end }}
+                </ul>
             </div>
+            -->
+            
 
             <br style="clear:both;"/>
         </div>

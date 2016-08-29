@@ -24,11 +24,11 @@ For those of you who might feel a little lost when you go into a oriental grocer
 to try making something new, but you don’t know the language on the package or are unfamiliar with the product or how
 to prepare it. Just ask us. We are here to help you find what you need.
 
+[Here's what some of our customers had to say...](/reviews/)
+
 ## Contact
 
-{{< contactform "omiorientalgrocery@gmail.com" >}}
-
-**Do You Prefer To Talk On the Phone?** You can call us during business hours at (860) 253-9028. If you have questions after hours, the *Contact Form* above is best.
+{{< contactform >}}
 
 ## Maps & Directions
 

@@ -1,7 +1,7 @@
 +++
-date = "2016-07-12T04:04:54-04:00"
-title = "Mondu Soup Recipe"
-summary = "The Mondu-iest Soup You Ever Did Taste"
+date = "2016-08-01"
+title = "Mondu Soup"
+summary = "Summary for Mondu Soup"
 tags = [ "soup" ]
 imageid = "GFrq9a-SgEq8HF29bM5GXw"
 +++

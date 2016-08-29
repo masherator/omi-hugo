@@ -1,28 +1,22 @@
 +++
-date = "2016-07-12T00:53:01-04:00"
-title = "Kimbop - Asian Dumpling Stew"
-summary = "Watch out Hansen, there's a new 'Bop in town and its name is Kim"
-tags = ["cabbage", "dumpling", "soup"]
+date = "2016-08-01"
+title = "Kimbop"
+summary = "Often called 'Korean Sushi', this is the quintessential Korean picnic food."
+tags = ["kim", "roll"]
 imageid = "IgARJXgeF0OV9au0TmKGvA"
+draft = "true"
 +++
 
-# Kimbop is a big issue
+# Kimbop / Kimbap
 
-Bah Bah du-wap (Diddy dom dom duh-ah)
-
-This is the recipe.
+We sell everything you need to make Kimbop at home. 
 
 ## Ingredients 
 
-- Ingredient
-- Ingredient
-- Ingredient
-- Ingredient
+- TODO: Get a list of ingredients so that people can buy them.
 
 ## Method
 
-1. Do something. 
+This is a fairly complicated recipe so we are still working on the best way to post it on the website.
 
-2. Do something else. 
-
-3. Do one last thing.
+In the meantime, we do offer classes where we make this quintessential Korean picnic food!

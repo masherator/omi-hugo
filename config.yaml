@@ -1,16 +1,26 @@
 baseurl: https://masherator.github.io/
 languageCode: en-us
 title: OMI Oriental Grocery
-
 canonifyurls: true
-menu:
-  main:
-      - Name: "Recipes"
-        Url: "/recipes/"
-        Weight: 1
-      - Name: "Classes"
-        Url: "/classes/"
-        Weight: 4
+
+sectionPagesMenu: "main"
+# menu:
+#   main:
+#       - Name: "Recipes"
+#         Url: "/recipes/"
+#         Weight: 1
+#       - Name: "Products"
+#         Url: "/products/"
+#         Weight: 2
+#       - Name: "Classes"
+#         Url: "/classes/"
+#         Weight: 3
+      
 
 params:
   cdn: http://wrightdrive.blob.core.windows.net/omi/
+  slogan: "The Five Flavors of the Far East"
+  street: "786 Enfield Street"
+  citystatezip: "Enfield, CT 06082"
+  phone: "(860) 253-9028"
+  email: "omiorientalgrocery@gmail.com"
